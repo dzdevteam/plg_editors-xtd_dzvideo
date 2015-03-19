@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="editors-xtd" method="upgrade">
+	<name>plg_editors-xtd_dzvideo</name>
+	<author>DZ Team</author>
+	<creationDate>March 2015</creationDate>
+	<copyright>Copyright (C) 2015 DZ Studio</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@dezign.vn</authorEmail>
+	<authorUrl>dezign.vn</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_DZVIDEO_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="dzvideo">dzvideo.php</filename>
+        <filename>dzvideo.js</filename>
+        <filename>dzvideo.xml</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_editors-xtd_dzvideo.ini</language>
+		<language tag="en-GB">en-GB.plg_editors-xtd_dzvideo.sys.ini</language>
+	</languages>
+</extension>
