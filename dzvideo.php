@@ -30,7 +30,14 @@ class PlgButtonDZVideo extends JPlugin
 		 * and closes the select frame.
 		 */
 		$doc = JFactory::getDocument();
-		$doc->addScript(JUri::root().'plugins/editors-xtd/dzvideo/dzvideo.js');
+		$doc->addScriptDeclaration(<<<SCRIPT
+		function dzvideoSelectVideo(name, form)
+        {
+            var tag = '{loadvideo ' + name + '}';
+            jInsertEditorText(tag, form);
+        }
+SCRIPT
+        );
 
 		JHtml::_('behavior.modal');
 
