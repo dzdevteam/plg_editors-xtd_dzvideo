@@ -53,7 +53,7 @@ SCRIPT
 		$button->class = 'btn';
 		$button->text = JText::_('PLG_DZVIDEO_BUTTON_VIDEO');
 		$button->name = 'video-2';
-		$button->options = "{handler: 'iframe', size: {x: 800, y: 500}}";
+		$button->options = "{handler: 'iframe', size: {x: 1000, y: 600}}";
 
 		return $button;
 	}
